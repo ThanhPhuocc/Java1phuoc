@@ -52,7 +52,6 @@ public class Fraction {
     }
 
     // Ham cong 2 phan so
-
     public Fraction add(Fraction ps2) {
         int ts = tuSo * ps2.mauSo + ps2.tuSo * mauSo;
         int ms = mauSo * ps2.mauSo;
@@ -75,11 +74,9 @@ public class Fraction {
 
     // Ham nghich dao phan so
     public void inverse() {
-        if (tuSo != 0) {
             int tg = tuSo;
             tuSo = mauSo;
             mauSo = tg;
-        }
     }
     // Chia 2 phan so
     public Fraction div(Fraction ps2) {
