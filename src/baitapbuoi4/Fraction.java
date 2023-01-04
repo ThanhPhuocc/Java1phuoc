@@ -75,11 +75,12 @@ public class Fraction {
 
     // Ham nghich dao phan so
     public void inverse() {
-        int tg = tuSo;
-        tuSo = mauSo;
-        mauSo = tg;
+        if (tuSo != 0) {
+            int tg = tuSo;
+            tuSo = mauSo;
+            mauSo = tg;
+        }
     }
-
     // Chia 2 phan so
     public Fraction div(Fraction ps2) {
         // Nghich dao ps2
