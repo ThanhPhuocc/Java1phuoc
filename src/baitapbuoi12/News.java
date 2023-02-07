@@ -1,6 +1,6 @@
 package baitapbuoi12;
 
-class News implements INews {
+class News implements AiNew {
     private int ID;
     private String Title;
     private String PublishDate;
