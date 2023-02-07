@@ -1,6 +1,6 @@
 package baitapbuoi12;
 
-interface INews {
+interface AiNew {
     void Display();
 }
 
